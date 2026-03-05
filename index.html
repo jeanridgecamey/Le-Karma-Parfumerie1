@@ -1,96 +1,106 @@
-<!Doctype html>
+<!DOCTYPE html>
 <html lang="ht">
-		<head>LE KARMA PARFUMERIE
-			<meta charset="UTF-8">
-			<meta name="viewport" content="width=device-widthscale=1.0">
-			<title> Le Karma Parfumerie</title>
-		</head>
-		<br>
-		<img src="logo_print_optimized.png" width="120" height="100">
-	<body style="background-image: url('plage.jpg'); background-repeat: no-repeat; background-size: cover;">
-		<h1> LE KARMA PARFUMERIE</h1>
-		<header>
-				<nav>
-					<ul>
-						<li>
-						<a href="CV.html">Voir Mon CV</li>
-						<li><a href="index.html"> Page D'accueil Le Karma Parfumerie</a></li>
-						<li><a href="about.html"> A propos de Le Karma Parfumerie </a></li>
-						<li><a href="contact.html"> contact de Le Karma Parfumerie </a></li>
-						</li>
-					</ul>
-			</nav>
-		</header>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Le Karma Hopital</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-								<p><strong> Au commencement etait l'odeur</strong> ,<i>l'odeur etait avec Dieu</i> 
-								<br>
-								<u>et l'odeur etait etait Dieu</u> 
-								<br>
-								<mark>Dieu est pour tous mais l’odeur est pour soi</mark> 
-								<br>
-<hr>								
-				<ul>
-				<h3>Gamme Disponible</h3>
-					<li>Tom Ford</li>
-						<li>Cartier Declaration</li>
-							<li>Club de nuit</li>
-								<li>Prada</li>
-								<li>Yves Saint-Laurent</li>
-							<img src="cartier.jpg" width="200" height="200">
-						<img src="precieux.jpeg" width="200">
-					<img src="lavie.jpeg" width="200" height="200">
-				<img src="creed.jpeg" width="200">
-				</ul>
-<hr>				
-				<ol>
-				<h3>Haute Gamme</h3>
-					<li>Creed</li>
-					<li>Coco Chanel</li>
-					<li>Iconic</li>
-					<li>La petite Robe noire</li>
-					<li>My Way</li>	
-				</ol>	
-				<video src=" vid.mp4" width="600" height="300" controls poster="lavie.jpeg">
-				</video>
-				<a href="vid.mp4" download>
-    Télécharger la vidéo
-</a>
+<header>
+  <h1>Le Karma Hopital</h1>
+  <div class="logo-container">
+    <img src="logo.png" alt="Logo">
+</div>
 
-<hr>
-				<ol reversed>
-				<h3>Haute Gamme</h3>
-					<li>Creed</li>
-					<li>Coco Chanel</li>
-					<li>Iconic</li>
-					<li>La petite Robe noire</li>
-					<li>My Way</li>
-				</ol>
-				<audio controls autoplay muted>
-					<source src=" audio.mp3 (online-audio-converter.com).mp3" 
-				</audio>
-				<a href="audio.mp3" download>
-</a>
-<button onclick="location.href='index.html'"> RETOUR A LA PAGE PRINCIPALE</button>
-				<ol type="A">
-				<h3>Haute Gamme</h3>
-					<li>Creed</li>
-					<li>Coco Chanel</li>
-					<li>Iconic</li>
-					<li>La petite Robe noire</li>
-					<li>My Way</li>
-				</ol>	 
-				<ol type="A" reversed>
-				<h3>Haute Gamme</h3>
-					<li>Creed</li>
-					<li>Coco Chanel</li>
-					<li>Iconic</li>
-					<li>La petite Robe noire</li>
-					<li>My Way</li>
-				</ol>					
+  <nav>
+    <a href="#home">Accueil</a>
+    <a href="#doctors">Medecins Specialiste</a>
+    <a href="#services">Services</a>
+    <a href="#appointment">Rendez-vous</a>
+    <a href="#contact">Contacts</a>
+  </nav>
+</header>
 
-		</body>
-		<footer>
-			<button onclick="location.href='index.html'"> RETOUR A LA TETE DE LA PAGE</button>												 
+<section id="home" class="hero">
+  <h2>Bienvenue a l'Hopital Le Karma</h2>
+  <p>La Sante Est Une Pour Tous </p>
+  <a class="btn" href="#appointment">Prenez votre Rendez-vous</a>
+</section>
 
-		</footer>
+<section id="doctors">
+  <h2>Nos Speciallistes de soins</h2>
+  <div class="doctors">
+    <div class="doctor">
+      <h3>Dr Jean Pierre</h3>
+      <p>Cardiologue</p>
+    </div>
+    <div class="doctor">
+      <h3>Dr Mikerline Charles</h3>
+      <p>Pediatre</p>
+    </div>
+    <div class="doctor">
+      <h3>Dr Paul Henry</h3>
+      <p>Chirurgien</p>
+    </div>
+    </div>
+    <div class="doctor">
+      <h3>Dr <div class="doctor">
+      <h3>Dr Paul Henry</h3>
+      <p>Chirurgien</p>
+      </div>
+       <div class="doctor">
+      <h3>Dr Miglaise Remfort</h3>
+      <p>Orthopediste</p>
+  </div>
+   <div class="doctor">
+      <h3>Dr Miglaise Remfort</h3>
+      <p>Orthopediste</p>
+      </div>
+    </div>
+</section>
+
+<section id="services">
+  <h2>Nos Services</h2>
+  <ul>
+    <li>Urgences</li>
+    <li>Laboratoire</li>
+    <li>Maternite</li>
+    <li>Chururgie</li>
+    <li>Pediatrie</li>
+    <li>Pharmacie</li>
+    <li>Orthopedie</li>
+  </ul>
+</section>
+
+<section id="appointment">
+  <h2>Prenez Votre Rendez-vous Ici!</h2>
+  <form>
+    <input type="text" placeholder="Non konplè" required>
+    <input type="date" required>
+    <select required>
+      <option value="">Chwazi sèvis</option>
+      <option>Urgences</option>
+      <option>Matrnite</option>
+      <option>Laboratoire</option>
+      <option>Chirurgie</option>
+      <option>Pediatrie</option>
+      <option>Orthopedie</option>
+    </select>
+    <button type="submit">Confirmer</button>
+  </form>
+</section>
+
+<section id="contact">
+  <h2>Contactez-Nous</h2>
+  <p>Telephone: +509 3117 4537</p>
+  <p>Email: lekarmahopital.com</p>
+  <p>Adresse: Belle-Anse, Sud'est. HT</p>
+</section>
+
+</body>
+<footer>
+  &copyright, Tout droit reserve
+</footer>
 </html>
